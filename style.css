@@ -4,26 +4,42 @@
   background-image: url(https://robert-parker-michelin-sg-prod.s3.amazonaws.com/media/image/2016/11/29/c17a1a231a534344b49e3b56f799191e_tokyo+banner.jpg); ;
   background-size: cover;
   padding: 150px;
-  color: white;
-  text-shadow: 1px 1px 5px black;
 }
 
 #banner h1 {
   color: white;
-  font-size: 60px;
+  font-size: 80px;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 5px 5px 5px black;
 }
 
 #banner p {
   color: white;
   opacity: 1,2;
-  font-size: 40px;
-  font-weight: normal
-  text-shadow: 1px 1px 1px black
+  font-size: 50px;
+  font-weight: normal;
+  font-family: 'Indie Flower', cursive;
+  text-shadow: 5px 5px 5px black;
+}
+
+.btn-danger{
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
 }
 
 .cta{
-  background-color: red;
-  padding: 30px;
+  background-color: #EEC8E0;
+  padding: 10px;
+}
+
+.cta h2 {
+  font-size: 30px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.cta p {
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
 }
 
 .card{
@@ -32,18 +48,28 @@
   font-weight: normal;
 }
 
+.card h2{
+  font-size: 30px;
+}
+
+.card p{
+  font-size: 20px;
+}
+
 #footer{
-  padding: 30px;
+  padding: 20px;
   background: rgb(30, 30, 30);
   color: lightgrey;
 }
 
 #footer a{
-color: red;
+color: #EEC8E0;
 font-size: 30px;
+text-align: center;
  }
 
  #footer a:hover{
- color: red;
+ color: #EEC8E0;
  font-size: 50px;
+ text-align: center;
  }
